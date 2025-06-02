@@ -1,9 +1,7 @@
 package com.phonebook.tests.restassured;
 
 import com.phonebook.dto.ContactDto;
-import com.phonebook.dto.ErrorDto;
 import io.restassured.http.ContentType;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

@@ -22,5 +22,4 @@ public class GetAllContactsRATest extends TestBase {
             System.out.println("==============================");
         }
     }
-//b6101c8e-592b-4370-94f9-972f47696330
 }
