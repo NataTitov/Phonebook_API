@@ -34,8 +34,8 @@ public class UpdateContactRATests extends TestBase {
                 .extract().path("message");
         String[] split = message.split(": ");
         id = split[1];
-
     }
+
     @Test
     public void updateContactPositiveTest() {
         UpdateContactDto updateContact = UpdateContactDto.builder()
